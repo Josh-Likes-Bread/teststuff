@@ -20,16 +20,5 @@ p {
     opacity: 1; /* Make the word visible when hovered */
 }
 
-body {
-    cursor: none; /* Hides the default mouse cursor */
-}
 
-.custom-cursor {
-    width: 40px; /* 5x larger (default is roughly 10px) */
-    height: 40px;
-    border: 3px solid black; /* Circle outline */
-    border-radius: 50%; /* Makes it a perfect circle */
-    pointer-events: none; /* Ensures it doesn't block interaction */
-    transform: translate(-50%, -50%); /* Centers the cursor on the mouse */
-    z-index: 10000; /* Ensures it's on top of all content */
-}
+
