@@ -25,7 +25,6 @@ body {
 }
 
 .custom-cursor {
-    position: fixed;
     width: 40px; /* 5x larger (default is roughly 10px) */
     height: 40px;
     border: 3px solid black; /* Circle outline */
